@@ -43,4 +43,5 @@ inurl = input(f"Nome do diretório {fCiano}‒ {fReset}")
 with open("dork.txt", "w") as f:
     for x in range(0, linhas):
         f.write(f"{inurl}{path[x]}\n")
+        
 print("Salvo em dork.txt")
